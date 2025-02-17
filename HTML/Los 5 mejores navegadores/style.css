@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ header{
+   background-color: #d3cfdc;
+   position:fixed;
+   width: 100%;
+   left:0;
+   top:0;
+   
+ }
+.cabeza{
+  display:flex;
+  justify-content: space-between;
+  height: 5px;
+  width:100%;
+  }
+.encabezado h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: left;
+    
+    
+  }
+.logotipo img{
+    margin: center;
+    height:80px;
+    width: auto;
+    text-align: left;
+  }
+
+nav{
+  margin-top: 50px;
+  height: 60px;
+  background-color:#4557a0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width:100%;
+  }
+
+nav ul{
+   list-style: none;
+   display: inline-block;
+   padding:18px;
+}
+
+nav ul li{
+    float: left;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+}
+
+nav ul li a:hover{
+  background-color: #929fb3;
+}
+
+
+.caja {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #929fb3;
+    border-radius: 5%;
+        } 
+
+.caja img{
+  width: 200px;
+  height: auto;
+  margin-left: 10%;
+}
+.navegador {
+    display:flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+   
+}
+
+
+body{
+  padding-top: 100px;
+}
+
+
+
+
